@@ -9,8 +9,8 @@
 
 * **`index.html`** (トップページ)
 
-* **`adout.html`** (プロフィール、経歴)
-    * **遷移元:** `index.html`
+    * **`adout.html`** (プロフィール、経歴)
+        * **遷移元:** `index.html`
 
-* **`work.html`** (作品集、詳細)
-    * **遷移元:** `index.html`
+    * **`work.html`** (作品集、詳細)
+        * **遷移元:** `index.html`

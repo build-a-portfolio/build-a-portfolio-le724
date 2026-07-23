@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav{
+    background-color: #90EE90;
+}
+
+.footer {
+    width: 100%;
+    background-color: #90EE90;
+    padding: 5rem 4rem;
+    
+}
+
+.navbar-brand {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.nav-link {
+    font-size: 1rem;
+}
+
+.footer-brand {
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.footer-heading {
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.footer-list {
+    list-style: none;
+    font-size: 1.0rem;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #000;
+}

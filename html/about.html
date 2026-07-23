@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about me</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <style>
+        .profile {
+            margin-top: 80px;
+            margin-bottom: 150px;
+        }
+
+        .history {
+            margin-bottom: 200px;
+        }
+
+        .timeline-container {
+            border-left: 3px solid #76ff76; 
+            padding-left: 2.5rem;
+        }
+
+        @media (max-width: 767.98px) {
+            .timeline-container {
+                padding-left: 1.5rem; 
+                margin-left: 0.5rem; 
+            }
+            .history-heading {
+                margin-bottom: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg p-3 px-5">
+        <div class="container-fluid">
+            <a class="navbar-brand fs-3" href="../index.html">Omura reon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto fs-4">
+                    <li class="nav-item me-lg-4">
+                        <a class="nav-link" href="#">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="works.html">Works</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5 px-4 px-md-5">
+        <div class="profile row align-items-start mb-5 pb-4" id="profile">
+            <div class="col-12 col-md-4 mb-3 mb-md-0">
+                <h2 class="fw-bold mb-1" style="font-size: 2.2rem; letter-spacing: 0.05em;">大村 玲音</h2>
+                <p class="text-dark fs-5">（おおむら・れおん）</p>
+            </div>
+            <div class="col-12 col-md-8 pt-md-2">
+                <p class="profile-intro fs-6 lh-lg mb-0">
+                    　2006年生まれ。MCL盛岡情報システム＆デザイン専門学校情報システム科所属。<br><br>
+                    　専門学校では、JavaやPythonを中心としたプログラミングを学び、オブジェクト指向プログラミングやデータベース、アルゴリズムなどの基礎知識を身に付けました。また、ITの基礎知識を体系的に学ぶため、基本情報技術者試験をはじめとする資格取得にも力を入れて取り組みました。
+                    現在は、学んだ知識を実践に生かすため、Javaを用いたWebアプリケーションの開発に取り組んでいます。フロントエンドとバックエンドの両方を学びながら、データベースと連携したシステムの設計・実装を進めています。
+                    新しい技術を積極的に学び、自分で調べながら課題を解決することを大切にしています。今後も開発経験を積み重ね、より実践的なスキルを身に付け、利用者にとって使いやすいシステムを開発できるエンジニアを目指しています。
+                </p>
+            </div>
+        </div>
+
+        <div class="history row g-0" id="history">
+            <div class="col-12 col-md-3">
+                <h2 class="fw-bold text-md-center" style="font-size: 2.3rem; letter-spacing: 0.1em; margin-top: -4px;">経歴</h2>
+            </div>
+            <div class="col-12 col-md-9 timeline-container fs-5">
+                <div class="mb-4">
+                    <p class="mb-1 text-dark">2023年4月</p>
+                    <p class="mb-0 lh-base">
+                        青森県立八戸工業高校入学<br>
+                        電子科に入学。主に通信と電子制御のプログラミングを学習
+                    </p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="mb-1 text-dark">2024年7月</p>
+                    <p class="mb-0 lh-base">
+                        ITパスポート取得<br>
+                        ITの基礎知識・経営・法務を体系的に学び合格。
+                    </p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="mb-1 text-dark">2026年4月</p>
+                    <p class="mb-0 lh-base">
+                        MCL盛岡情報ビジネス＆デザイン専門学校入学<br>
+                        情報システム科に入学。
+                    </p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="mb-1 text-dark">2026年5月</p>
+                    <p class="mb-0 lh-base">
+                        基本情報技術者取得
+                    </p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="mb-1 text-dark">2026年6月</p>
+                    <p class="mb-0 lh-base">
+                        Pythonプログラミング能力認定試験 3級 取得
+                    </p>
+                </div>
+
+                <div class="mb-0">
+                    <p class="mb-1 text-dark">2026年7月</p>
+                    <p class="mb-0 lh-base">
+                        Java™プログラミング能力認定試験 3級 取得
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row lh-lg">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <p class="footer-brand">Omura reon</p>
+                </div>
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
+                    <p class="footer-heading">About me</p>
+                    <ul class="footer-list">
+                        <li><a href="about.html#profile">自己紹介</a></li>
+                        <li><a href="about.html#history">経歴</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-4">
+                    <p class="footer-heading">Works</p>
+                    <ul class="footer-list">
+                        <li><a href="works.html#web">Spring Music Festival 2026</a></li>
+                        <li><a href="works.html#ec">ショッピングサイト</a></li>
+                        <li><a href="works.html#flyer">学内イベントのチラシ</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+</body>
+</html>

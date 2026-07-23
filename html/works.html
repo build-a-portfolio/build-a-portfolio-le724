@@ -13,14 +13,19 @@
     <nav class="navbar navbar-expand-lg p-3 px-5">
         <div class="container-fluid">
             <a class="navbar-brand fs-3" href="index.html">Omura reon</a>
-            <ul class="navbar-nav ms-auto fs-4 me-4">
-                <li class="nav-item me-4">
-                    <a class="nav-link" href="about.html">About me</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Works</a>
-                </li>
-            </ul>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMenu">
+                <ul class="navbar-nav ms-auto fs-4">
+                    <li class="nav-item me-lg-4">
+                        <a class="nav-link" href="about.html">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Works</a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </nav>
 
@@ -29,7 +34,7 @@
         <div class="mb-5 pb-4" id="web">
             <div class="row align-items-center g-4 mb-4">
             <div class="col-md-6">
-                <img src="img/Webサイト.webp" alt="Spring Music Festival 2026" class="img-fluid rounded w-100">
+                <img src="img/website.webp" alt="Spring Music Festival 2026" class="img-fluid rounded w-100">
             </div>
             <div class="col-md-6">
                 <h3 class="fs-4 mb-3 fw-bold">Spring Music Festival 2026</h3>
@@ -70,7 +75,7 @@
         <div class="mb-5 pb-4" id="ec">
             <div class="row align-items-center g-4 mb-4">
             <div class="col-md-6">
-                <img src="img/アセット 2.webp" alt="ショッピングサイト" class="img-fluid rounded w-100">
+                <img src="img/shop.webp" alt="ショッピングサイト" class="img-fluid rounded w-100">
             </div>
             <div class="col-md-6">
                 <h3 class="fs-4 mb-3 fw-bold">ショッピングサイト</h3>
@@ -105,10 +110,10 @@
         <div class="mb-5" id="flyer">
             <div class="row align-items-center g-4 mb-4">
             <div class="col-md-6 text-center">
-                <img src="img/アセット 1.webp" alt="ジョビフェスのチラシ" class="img-fluid rounded" style="max-height: 380px; object-fit: contain;">
+                <img src="img/flyer.webp" alt="ジョビフェスのチラシ" class="img-fluid rounded" style="max-height: 380px; object-fit: contain;">
             </div>
             <div class="col-md-6">
-                <h3 class="fs-4 mb-3 fw-bold">ジョビフェスのチラシ</h3>
+                <h3 class="fs-4 mb-3 fw-bold">学内イベントのチラシ</h3>
                 <p class="mb-0 lh-base">
                 11月1日に専門学校で開催されたジョビフェスにて、情報システム科で実施した出し物の掲示に使用しました。
                 </p>
@@ -139,27 +144,27 @@
     <footer class="footer">
         <div class="container-fluid">
             <div class="row lh-lg">
-                <div class="col">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <p class="footer-brand">Omura reon</p>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-4 mb-4 mb-md-0">
                     <p class="footer-heading">About me</p>
                     <ul class="footer-list">
                         <li><a href="about.html#profile">自己紹介</a></li>
                         <li><a href="about.html#history">経歴</a></li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-4">
                     <p class="footer-heading">Works</p>
                     <ul class="footer-list">
-                        <li><a href="#web">Web サイト</a></li>
-                        <li><a href="#ec">ショッピングサイト</a></li>
-                        <li><a href="flyer">ポスター</a></li>
+                        <li><a href="works.html#web">Spring Music Festival 2026</a></li>
+                        <li><a href="works.html#ec">ショッピングサイト</a></li>
+                        <li><a href="works.html#flyer">学内イベントのチラシ</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc4s9bIOgUxi8T/jzmBDmsSzPgDXNeBFtJJdKhLNAVmg" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
 </body>
 </html>
